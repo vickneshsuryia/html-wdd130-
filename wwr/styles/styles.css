@@ -229,6 +229,46 @@ main {
     transform: scale(1.1);
 }
 
+
+
+/*new-page*/
+
+
+#top-text {
+    text-align: center;
+    font-size: 2em;
+}
+
+#page2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.img1, .text1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 100px;
+}
+
+.img2, .text2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 100px;
+}
+
+.img3, .text3 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.text {
+    font-size: 1.25em;
+    display: grid;
+    justify-items: center;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
